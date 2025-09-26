@@ -97,7 +97,7 @@ calories-prediction/
 
 - Algorithm: XGBoost Regressor
 - Preprocessing: Scaling input & output features using Scikit-learn
- -Output: Predicted calories burned displayed directly on screen
+- Output: Predicted calories burned displayed directly on screen
 
 **Future improvements:**
 
