@@ -80,6 +80,7 @@ streamlit run app.py
 ---
 
 ## 📂 Project Structure
+```bash
 calories-prediction/
 │
 ├── demo/               # demo video files
@@ -90,7 +91,7 @@ calories-prediction/
 ├── scaler_y.pkl        # output scaler
 ├── requirements.txt    # dependencies
 └── README.md           # documentation
-
+```
 
 ## 📊 Model Overview
 
