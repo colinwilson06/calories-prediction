@@ -1,36 +1,56 @@
 # 🔥 Calories Prediction App 🥗⚡
 
-[![Python](https://img.shields.io/badge/python-3.10+-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)
-[![YouTube Demo](https://img.shields.io/badge/Demo-Video-green)](https://youtu.be/082eVOTRcy8?si=6U7zqx-Dav3cKDxZ)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-red)](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)  
+[![YouTube Demo](https://img.shields.io/badge/Demo-Video-green)](https://youtu.be/082eVOTRcy8?si=6U7zqx-Dav3cKDxZ)  
 
-A **machine learning web application** that predicts the number of calories burned based on user inputs.  
-Built with **Streamlit** for interactivity and deployed for instant access on the web.  
+🌟 **Try the Live App Now:** [Open Streamlit App](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)  
 
 ---
 
-## ✨ Features
-- ✅ Simple and intuitive web interface  
-- ✅ Input activity parameters → instant calorie prediction  
-- ✅ Powered by **XGBoost** & **Scikit-learn**  
-- ✅ Lightweight and fast inference  
-- ✅ Deployed and accessible online via Streamlit  
+## ✨ Overview
+A **machine learning web application** that predicts the number of **calories burned** based on user activity inputs.  
+Built with **Streamlit** for interactivity and **XGBoost** for fast and accurate predictions.  
+Perfect for fitness enthusiasts, nutritionists, and anyone tracking energy expenditure.  
+
+---
+
+## 🏃 Features & Advantages
+
+**Features (Input Parameters for Prediction):**  
+- 👶 **Age** (years)  
+- 🧑‍🦱 **Gender** (male/female)  
+- 📏 **Height** (cm)  
+- ⚖️ **Weight** (kg)  
+- ⏱️ **Exercise Duration** (minutes)  
+- 💓 **Average Heart Rate** (bpm)  
+- 🌡️ **Body Temperature** (°C)  
+
+**Advantages:**  
+- ✅ Simple, clean, and responsive web interface  
+- ✅ Fast, lightweight ML inference  
+- ✅ Mobile-friendly  
+- ✅ Easy to extend with custom datasets or multiple models  
+- ✅ Deployed online via Streamlit  
 
 ---
 
 ## 🎬 Demo
 
-- 🌍 **Live App**: [Open Here](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)  
+- 🌍 **Live App**: [Try it here!](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)  
 - 🎥 **Video Walkthrough**: [Watch on YouTube](https://youtu.be/082eVOTRcy8?si=6U7zqx-Dav3cKDxZ)  
 - 🖼️ **Screenshots**: See [`/screenshots`](./screenshots)  
 
 Example Screenshot:  
-![App Screenshot](./screenshots/example.png)
+![App Screenshot](./screenshots/14.XGBoost_pred_vs_actual_plot.png)  
+
+💡 **Tip**: You can **run the app instantly in your browser** without installing anything:  
+[Click here to open the live Streamlit app](https://calories-prediction-9k3nbthttphmqysnzlwsnz.streamlit.app/)
 
 ---
 
 ## 🛠️ Tech Stack
-- **Python**  
+- **Python 3.10+**  
 - **Streamlit** (Frontend/UI)  
 - **Pandas, NumPy** (Data processing)  
 - **Scikit-learn** (Preprocessing & pipeline)  
@@ -56,11 +76,10 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-**You can also run it directly without installation from here:** 
 
+---
 
 ## 📂 Project Structure
-```bash
 calories-prediction/
 │
 ├── demo/               # demo video files
@@ -71,16 +90,21 @@ calories-prediction/
 ├── scaler_y.pkl        # output scaler
 ├── requirements.txt    # dependencies
 └── README.md           # documentation
-```
+
 
 ## 📊 Model Overview
 
 - Algorithm: XGBoost Regressor
 - Preprocessing: Scaling input & output features using Scikit-learn
-- Output: Predicted calories burned displayed directly on screen
+ -Output: Predicted calories burned displayed directly on screen
 
-(Future work: support multiple models, visual error metrics, and custom dataset uploads)
+**Future improvements:**
 
+- Add multiple ML models for comparison
+- Visualize prediction errors and metrics
+- Allow users to upload custom datasets
 
 👤 Author
 Created by Colin Wilson 👨‍💻
+
+📫 Contact: colinwilson06@gmail.com
